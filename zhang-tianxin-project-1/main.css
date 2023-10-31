@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    background-color: #c6c2c065;
+}
+
+h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+.hero-h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 300;
+    font-size: 5em;
+    color: #5d5b5b;
+}
+.depression-h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3em;
+    color: #5d5b5b;
+    font-weight: 600;
+    text-align: right;
+}
+.ocd-h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em;
+    color: #5d5b5b;
+    font-weight: 600;
+    text-align: right;
+    padding: 10px 0px;
+}
+.depression-h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    color: #5b0b0b;
+    font-weight: bold;
+    text-align: right;
+    
+}
+.depression-text {   
+    display: inline-block;
+    width: 400px;
+    margin: 0px 20px 50px 20px;    
+    
+}
+.depression-more {
+    text-align: left;
+    color: rgba(6, 6, 114, 0.754);
+}
+
+
+.depression-image {
+    width: 450px;  
+    margin: 0px 20px;
+}
+.depression-p {
+    text-align: justify;
+}
+.depression {
+    text-align: center;
+    padding: 40px 0px;
+
+}
+header,footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    height: 45px;
+    align-items: center;
+
+}
+header {
+ 
+    border-bottom: 1px solid rgb(171, 170, 170);
+}
+
+footer {
+    
+    border-top: 1px solid rgb(171, 170, 170);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+
+a {
+    color:#5d5b5b;
+    text-decoration: none;
+
+    
+}
+.depression-a {
+    color: rgb(84, 95, 156);
+
+}
+a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: white;
+}
+.logo {
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    
+}
+.hero {
+    width:100%;
+    text-align: center;
+    
+}
+.hero img {
+    width:100%;
+    
+}
+.hero h1 {
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 300px;
+    margin: 10px;
+    background-color: #e7c9c956;
+}
+
+.row-top {
+    display: flex;
+    justify-content: center;
+}
+.row-bottom {
+    display: flex;
+    justify-content: center;
+}
+.card h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4%;
+}
+
+.card p {
+    text-align: left;
+    padding: 2px;
+}
+.card div {
+    padding: 10px 16px 20px 16px;
+
+}
+.card img {
+    width: 100%;
+
+}
+
+.contact-h1 {
+    font-size: 3em;
+    text-align: center;
+    color:  #5d5b5b;
+    margin: 15px auto;
+    
+}
+.contact-h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color:  #5d5b5b;
+    
+}
+
+.hero-contact {
+    max-width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+.form {
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+
+}
+input {
+    font-size: .5em;
+    display: block;
+    width: 250px;
+    margin: 12px auto;
+}
+textarea {
+    font-size: .5em;
+    display: block;
+    margin: 12px auto;
+    width: 500px;
+}
+
+.contact-submit {
+    text-align: center;
+    padding: 12px;
+    font-size: 12;   
+}
+.contact-p {
+    color: #524f4f9f;
+    font-size: 1em;
+}
+
+.button {
+    background-color: #e7c9c956;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    margin: 15px auto;
+    
+}
+.hero-submit {
+    background-image: url(images/submit.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: 450px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.submit-header {
+    margin: 20px auto;
+}
+
